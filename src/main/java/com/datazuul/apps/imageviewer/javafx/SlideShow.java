@@ -130,7 +130,8 @@ public class SlideShow extends Application {
     }
 
     public static void main(String[] args) {
-        photoDirectory = args[0];
+//        photoDirectory = args[0];
+        photoDirectory = "/home/ralf/DEV/SOURCES/com.datazuul.apps--imageviewer/src/main/resources/borderpaneexample/";
         launch(args);
     }
     BlockingQueue<Image> images = new ArrayBlockingQueue(5);
